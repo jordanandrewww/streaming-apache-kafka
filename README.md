@@ -48,6 +48,7 @@ docker exec -it kafka kafka-topics \
   --bootstrap-server localhost:9092 \
   --partitions 1 \
   --replication-factor 1
+  
 5. Open three different terminals, all within the project folder
 
 - In terminal 1, run the consumer: python trips_consumer.py
